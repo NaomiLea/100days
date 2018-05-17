@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(to top right, #2a7ff4, #2ad1f4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  position: relative;
+}
+
+.top {
+  width: 25px;
+  height: 60px;
+  background-color: #fff;
+  transform: rotate(55deg);
+  position: absolute;
+  border-radius: 0 0 6px 6px;
+}
+
+.stand {
+  width: 25px;
+  height: 150px;
+  background-color: #fff;
+  position: absolute;
+  left: 30px;
+  top: 3px;
+  -webkit-box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+  -moz-box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+  box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+}
