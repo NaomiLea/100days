@@ -16,6 +16,9 @@ body {
 
 .one {
   position: relative;
+  z-index: 10;
+  margin-left: -10px;
+  margin-top: -155px;
 }
 
 .top {
@@ -37,4 +40,29 @@ body {
   -webkit-box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
   -moz-box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
   box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+}
+
+.first-zero {
+  border-radius: 50%;
+  border: 25px solid #fff;
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+  -moz-box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+  box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+  position: relative;
+  z-index: 1;
+  margin-left: 45px;
+}
+
+.second-zero {
+  border-radius: 50%;
+  border: 25px solid #fff;
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+  -moz-box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+  box-shadow: -4px 7px 39px 0px rgba(176, 170, 176, 1);
+  position: relative;
+  margin-left: -10px;
 }
